@@ -1,8 +1,5 @@
 @extends('frontend.master')
 @section('content')
-<!-- Start slider -->
-@include('frontend.blocks.slide')
-<!-- / slider -->
   <!-- Products section -->
   <section id="aa-product">
     <div class="container">
@@ -72,9 +69,6 @@
 <!-- Support section -->
 @include('frontend.blocks.trans')
 <!-- / Support section -->
-<!-- Latest Blog -->
-@include('frontend.blocks.news')
-<!-- / Latest Blog -->
 <!-- Footer -->
 @include('frontend.blocks.footer')
 <!-- / Footer -->
